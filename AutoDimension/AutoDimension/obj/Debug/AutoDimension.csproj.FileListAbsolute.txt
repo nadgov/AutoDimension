@@ -1,0 +1,17 @@
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\bin\Debug\AutoDimension.exe.config
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\obj\Debug\Interop.SolidWorks.dll
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\obj\Debug\Interop.SW3DPrinter.dll
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\obj\Debug\Interop.SwCommands.dll
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\obj\Debug\Interop.SwConst.dll
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\obj\Debug\Interop.SwDimXpert.dll
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\obj\Debug\Interop.SwMotionStudy.dll
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\obj\Debug\Interop.SWPublished.dll
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\obj\Debug\Interop.SWRoutingLib.dll
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\obj\Debug\Interop.SwSmgAddin.dll
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\obj\Debug\AutoDimension.csproj.ResolveComReference.cache
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\obj\Debug\Interop.PDMWorks.dll
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\bin\Debug\AutoDimension.exe
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\bin\Debug\AutoDimension.pdb
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\obj\Debug\AutoDimension.csprojResolveAssemblyReference.cache
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\obj\Debug\AutoDimension.exe
+C:\Users\nadavgo\Documents\AutoDimension\AutoDimension\AutoDimension\obj\Debug\AutoDimension.pdb
