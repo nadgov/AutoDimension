@@ -123,16 +123,21 @@ namespace AutoDimension
             ///<summary>
             ///ListDim_Tol is a list containing the dimension and its tolerance. This is the final list needed to be exported to Excel
             ///Format: {dimension value, upper limit tolerance, lower limit tolerance}
-            ///Units: millimeter [mm]
+            ///Units: value is in the drawing's units, tolerance in millimeter [mm]. According to 3/10/17
             ///</summary>
             List<double[]> ListDim_Tol = new List<double[]>();
-            double[] dim_tol = { 0.0, 0.0, 0.0 };
+            //double[] dim_tol = { 0.0, 0.0, 0.0 };
             foreach (Dimension dim in this.DimTolDict.Keys)
             {
+                double[] dim_tol = { 0.0, 0.0, 0.0 };
                 dim_tol[0] = dim.Value; dim_tol[1] = this.DimTolDict[dim][0] * 1000; dim_tol[2] = this.DimTolDict[dim][1] * 1000;
+                if (this.DimTolDict[dim][0] == -1)
+                    dim_tol[1] = -1;
+                if (this.DimTolDict[dim][1] == -1)
+                    dim_tol[2] = -1;
                 //Format: dim_tol[0] = dimension value, dim_tol[1] = upper limit tolerance, dim_tol[2] = lower limit tolerance
                 ListDim_Tol.Add(dim_tol);
-                dim_tol[0] = 0.0; dim_tol[1] = 0.0; dim_tol[2] = 0.0;
+                //dim_tol[0] = 0.0; dim_tol[1] = 0.0; dim_tol[2] = 0.0;
             }
             return ListDim_Tol;
         }
@@ -251,6 +256,19 @@ namespace AutoDimension
             }
         }
         #endregion
+
+        public override string ToString()
+        {
+            string output = "Number\t| Value\t| Up Tol | Low Tol\n";
+            output +=       "----------------------------------\n";
+            
+            for(int i = 0; i< this._ListDim_Tol.Count; i++)
+            {
+                output += string.Format("{0}\t| {1:N2}\t| {2:N2}\t | {3:N2}\n",
+                                                            i+1, this.ListDim_Tol[i][0], this.ListDim_Tol[i][1], this.ListDim_Tol[i][2]);
+            }
+            return output;
+        }
         #endregion
     }
     #endregion

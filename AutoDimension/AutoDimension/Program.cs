@@ -27,7 +27,8 @@ namespace AutoDimension
             {
                 AutoDimensionController Controller = new AutoDimensionController();
                 Controller.Launch();
-                Controller.ReleaseSolid();
+                //Controller.ReleaseSolid();
+                Console.WriteLine(Controller.SldDrw.ToString());
                 Console.ReadKey();
                 return;
             }
